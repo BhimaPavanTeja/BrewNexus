@@ -71,7 +71,7 @@ export default function Page() {
           <p>What&apos;s Special About Brew Nexus?</p>
         </div>
         <div className="flex items-center justify-center gap-40 mt-10">
-          <div className="bg-white text-[#4b382a] p-6 rounded-lg shadow-lg w-80 rotate-12">
+          <div className="bg-white text-[#4b382a] p-6 rounded-lg shadow-lg w-80 rotate-12 hover:rotate-0 transition duration-300">
             <div className="rounded-full bg-[#4b382a] h-3 w-3 mx-auto"></div>
             <Image
               src="/assets/Cafe Assets/coffee-chilling-persons.webp"
@@ -84,7 +84,7 @@ export default function Page() {
               More Than Coffee - A Place to Connect
             </p>
           </div>
-          <div className="bg-white text-[#4b382a] p-6 rounded-lg shadow-lg w-80 -rotate-12">
+          <div className="bg-white text-[#4b382a] p-6 rounded-lg shadow-lg w-80 -rotate-12 hover:rotate-0 transition duration-300">
             <div className="rounded-full bg-[#4b382a] h-3 w-3 mx-auto"></div>
             <Image
               src="/assets/coffee/sip.webp"
@@ -99,6 +99,12 @@ export default function Page() {
           </div>
         </div>
       </div>
+
+        {/* Our Offers */}
+
+
+        {/* Footer */}
+        
     </>
   );
 }
