@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'big-shoulders';
+    src: url('../../public/fonts/BigShouldersDisplay-VariableFont_wght.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.fonty {
+    font-family: 'big-shoulders';
+    font-style: regular;
+}
