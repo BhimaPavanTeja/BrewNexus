@@ -3,6 +3,11 @@
     src: url('../../public/fonts/BigShouldersDisplay-VariableFont_wght.ttf');
 }
 
+@font-face {
+    font-family: "bigs";
+    src: url('../../public/fonts/static/BigShouldersDisplay-Bold.ttf');
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -13,4 +18,8 @@ body {
 .fonty {
     font-family: 'big-shoulders';
     font-style: regular;
+}
+
+.fonti {
+    font-family: 'bigs';
 }

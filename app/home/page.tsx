@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import NavBar from "../components/NavBar/page";
+import Footer from "../components/Footer/page";
 import "./home.css";
 import Image from "next/image";
 
@@ -94,17 +95,56 @@ export default function Page() {
               alt="coffee meet"
             />
             <p className="fonty text-2xl">
-            A Sip of Perfection, A Taste of Home
+              A Sip of Perfection, A Taste of Home
             </p>
           </div>
         </div>
       </div>
 
-        {/* Our Offers */}
+      {/* Our Offers */}
+      <div className="bg-[#f5e9d7] text-[#4b382a] fonti flex flex-col py-10 h-screen">
+        <div className="text-4xl flex items-center justify-center">
+          <p>Sip, Save, Repeat!</p>
+        </div>
+        <div className="w-1/2 mt-10 text-right">
+          <p className="text-2xl">Bring a Friend & Save 20%!</p>
+          <hr className="border-2" />
+          <p className="text-lg">
+            Come with a friend and enjoy 20% off your total bill on your first
+            visit together.
+          </p>
+        </div>
+        <div className="flex justify-end mt-10">
+          <div className="w-1/2 text-left">
+            <p className="text-2xl font-bold">Corporate Coffee Pass</p>
+            <hr className="border-2" />
+            <p className="text-lg">
+              For just ₹1999/month, get unlimited coffee refills during business
+              hours
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center pt-20">
+          <p className="text-3xl">Why Brew Nexus?</p>
+          <div className="flex justify-between pt-10 w-full px-50">
+            <div className="flex flex-col items-center">
+                <Image src="/assets/qualitybean.svg" alt="beans" width={100} height={100}  />
+                <p className="mt-10 text-xl">Premium Quality Beans</p>
+            </div>
+            <div className="flex flex-col items-center">
+                <Image src="/assets/relax.svg" alt="relax" width={100} height={100}  />
+                <p className="mt-10 text-xl">Relaxing Atmosphere</p>
+            </div>
+            <div className="flex flex-col items-center">
+                <Image src="/assets/fastfriendly.svg" alt="fast and friendly" width={100} height={100}  />
+                <p className="text-xl">Fast & Friendly Service</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-        {/* Footer */}
-        
+      {/* Footer */}
+      <Footer />
     </>
   );
 }
