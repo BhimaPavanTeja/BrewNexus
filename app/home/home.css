@@ -38,9 +38,6 @@ body {
     #cup {
         width: 50;
         height: 50;
-        position: absolute;
-        top: 42%;
-        left: 37%;
     }
     #btns {
         display: flex;
