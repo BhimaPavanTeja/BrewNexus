@@ -52,17 +52,18 @@ export default function Page() {
 
       {/* Rotating Coffee Cup */}
       <div id="cup"
-        className="absolute inset-0 -rotate-51 flex justify-center items-center z-10"
-        style={{
-          transform: `rotate(-${rotation}deg)`,
-          transition: "transform 0.1s linear",
-        }}
+        className="absolute inset-0 h-1/2 sm:h-screen flex justify-center items-center z-10"
       >
         <Image
           src="/assets/Cafe Assets/coffee_6.webp"
           alt="coffee cup"
           width={250}
           height={250}
+          className="-rotate-49"
+          style={{
+        transform: `rotate(-${rotation}deg)`,
+        transition: "transform 0.1s linear",
+          }}
         />
       </div>
 
@@ -81,8 +82,8 @@ export default function Page() {
         <div className="fonty text-4xl text-[#4b382a] text-center">
           <p>What&apos;s Special About Brew Nexus?</p>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-40 mt-10">
-          <div className="bg-white text-[#4b382a] p-6 rounded-lg shadow-lg w-full md:w-80 transform transition duration-300 hover:rotate-0 rotate-0 md:rotate-12">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-10 md:gap-20 lg:gap-40 mt-10">
+          <div className="bg-white text-[#4b382a] p-6 rounded-lg shadow-lg w-full sm:w-80 transform transition duration-300 hover:rotate-0 rotate-0 sm:rotate-6 md:rotate-12">
         <div className="rounded-full bg-[#4b382a] h-3 w-3 mx-auto"></div>
         <Image
           src="/assets/Cafe Assets/coffee-chilling-persons.webp"
@@ -95,7 +96,7 @@ export default function Page() {
           More Than Coffee - A Place to Connect
         </p>
           </div>
-          <div className="bg-white text-[#4b382a] p-6 rounded-lg shadow-lg w-full md:w-80 transform transition duration-300 hover:rotate-0 rotate-0 md:-rotate-12">
+          <div className="bg-white text-[#4b382a] p-6 rounded-lg shadow-lg w-full sm:w-80 transform transition duration-300 hover:rotate-0 rotate-0 sm:-rotate-6 md:-rotate-12">
         <div className="rounded-full bg-[#4b382a] h-3 w-3 mx-auto"></div>
         <Image
           src="/assets/coffee/sip.webp"

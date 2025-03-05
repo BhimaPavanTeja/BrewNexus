@@ -18,7 +18,7 @@ export default function Page() {
                 
                 <div className="md:hidden">
                     <button onClick={toggleMenu}>
-                        <Image src="/icons/menu.svg" alt="menu" width={25} height={25} className="cursor-pointer z-50" />
+                        <Image src="/icons/menu.svg" alt="menu" width={25} height={25} className="cursor-pointer z-60" />
                     </button>
                 </div>
                 
