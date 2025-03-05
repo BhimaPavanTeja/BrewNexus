@@ -124,7 +124,7 @@ export default function Page() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center pt-20">
+        <div className="flex flex-col items-center justify-center pt-10">
           <p className="text-3xl">Why Brew Nexus?</p>
           <div className="flex justify-between pt-10 w-full px-50">
             <div className="flex flex-col items-center">
