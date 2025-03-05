@@ -148,7 +148,7 @@ export default function Page() {
         </div>
         <div className="flex flex-col items-center">
             <Image src="/assets/fastfriendly.svg" alt="fast and friendly" width={100} height={100}  />
-            <p className="mt-10 text-xl text-center">Fast & Friendly Service</p>
+            <p className="text-xl text-center">Fast & Friendly Service</p>
         </div>
           </div>
         </div>
