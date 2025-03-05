@@ -30,7 +30,7 @@ export default function page() {
         <NavBar />
         <div className=" bg-[#eed6b7] flex flex-wrap justify-center fonty py-10">
             {data.map((item, index) => (
-                <Card key={index} name={item.name} price={item.price.toString()} imgSrc={item.imgSrc || "/assets/Cafe Assets/coffee_2.webp"} />
+                <Card key={index} name={item.name} price={item.price} imgSrc={item.imgSrc || "/assets/Cafe Assets/coffee_2.webp"} />
             ))}
         </div>
         <Footer />
