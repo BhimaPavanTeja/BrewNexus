@@ -13,13 +13,13 @@ export default function Card({ name, price, imgSrc }: Props) {
 
   return (
     <div className="itemCard h-[300px] w-[280px] m-5 shadow-lg">
-      <div className="top w-full border-3 h-[50px] border-[#4B382A] bg-[#C49A6C] text-center text-xl pt-3 shadow-lg">
+      <div className="top w-full border-3 h-[50px] border-[#4B382A] bg-[#C49A6C] text-center text-xl pt-3 shadow-lg rounded-t-lg">
         {name} | ₹{price}
       </div>
       <div className="middle w-full h-[200px]">
         <Image
           src={imgSrc}
-          className="object-cover w-full h-full"
+          className="object-cover w-full h-full rounded-b-lg"
           alt={name}
           width={280}
           height={200}
@@ -31,7 +31,7 @@ export default function Card({ name, price, imgSrc }: Props) {
             addToCart({ name, price, imgSrc }); 
             alert("Item added to cart!"); 
           }}
-          className="w-full cursor-pointer bg-[#4B382A] h-[50px] text-[#F5E9D7] text-2xl mt-3"
+          className="w-full cursor-pointer bg-[#4B382A] h-[50px] text-[#F5E9D7] text-2xl mt-3 rounded-lg"
         >
           ADD TO CART
         </button>
